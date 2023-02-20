@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.blog-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-info {
+  padding: 10px;
+}
+
+.blog-details-title {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.author-pic {
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.details-author-name {
+  color: #000000;
+}
+
+.blog-image {
+  height: 40%;
+}
+
+.blog-content {
+  color: #2f4f4f;
+  font-family: roboto;
+}
